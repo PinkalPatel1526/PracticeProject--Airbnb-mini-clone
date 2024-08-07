@@ -1,0 +1,175 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container {
+    flex: 1;
+} */
+
+.navbar {
+    height: 5rem;
+    background-color: white !important;
+}
+
+
+.fa-compass {
+    color: #fe424d;
+   
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+
+}
+.f-info-links, .f-info-social, .f-info-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-social i {
+    font-size:1.2rem;
+    margin-right: 0.6rem;
+}
+
+.f-info {
+    height: 8rem;
+    text-align: center;
+    background-color: #d5d4d4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;       
+}
+
+
+/* card */
+
+.card {
+
+    width: 18rem;
+    height: 18rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    border: none !important;
+}
+
+.card img {
+   height: 16rem;
+    border-radius: 0.8rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+       
+   
+}
+
+.card-body .title {
+    font-weight: 600;
+}
+
+.cards a {
+    text-decoration: none;
+    margin: 0;
+}
+
+.card img:hover {
+    opacity: 0.8;
+ }  
+
+
+ /* newListing */
+.add-btn {
+    background-color: #fe424d;
+    color: #d5d4d4;
+    font-weight: 500;
+    border: none;
+}   
+
+/* css for show post  */
+
+.show-container {
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.show-img img {
+    height: 30rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.show-img  {
+    display: flex;
+    justify-content: center;
+}
+
+.show-detail .title {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.show-detail .title {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.show-detail .des {
+    margin-top: 0.5rem
+}
+
+.show-control {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+}  
+
+.show-control .show-edit {
+    margin-right: 2rem;
+} 
+
+.control-btn {
+    border: none;
+    background-color: #fe424d;
+    color: #d5d4d4;
+} 
+
+.show-card {
+    box-shadow: 4px 4px 10px 0px black;
+    border: 1px solid #222222;
+    border-radius: 1rem;
+}
+
+.m-left { 
+    margin-left: 1.5rem;
+}
+
+.show-detail div {
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,47 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<body>
+    <div class="show-container">
+        <div class="show-card">
+            <div class="show-img">
+                <img src="<%= docs.image %>" alt="opps">
+            </div>
+
+            <div class="show-detail ">
+
+                <div class="title">
+                    <%= docs.title %>
+                </div>
+
+                <div class="des m-left">
+                    <%= docs.description %>
+                </div>
+
+                <div class="price m-left">
+                   Price: &#x20B9; <%= docs.price.toLocaleString("en-IN") %> /Night
+                </div>
+
+                <div class="location m-left">
+                   Location: <%= docs.location %>
+                </div>
+
+                <div class="country m-left">
+                    Country: <%= docs.country %>
+                </div>
+
+            </div>
+
+            <div class="show-control m-left">
+
+                <div class="show-edit">
+                    <a href="/listing/<%= docs.id %>/edit"><button class="control-btn">Edit</button></a>
+                </div>
+
+                <form action="/listing/<%= docs.id %>?_method=DELETE" method="post">
+                    <button class="control-btn">Delete</button>
+                </form>
+
+            </div>  
+        </div>
+    </div>
+</body>

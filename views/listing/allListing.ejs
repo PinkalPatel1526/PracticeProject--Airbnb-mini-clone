@@ -1,0 +1,20 @@
+<% layout("/layouts/boilerplate.ejs") %>
+ 
+<body>
+    <div class="cards">
+        <% for(let list of docs) { %>
+            <a href="/listing/<%= list._id %>">
+                <div class="card">
+                    <img src="<%= list.image %>" class="card-img-top" alt="Opps!! imgage not found">
+    
+                    <div class="card-body">       
+                        <div class="title"><%= list.title %> </div>
+                        <% const price = list.price %>
+                        <div class="price"> &#x20B9; <%= price %> /Night  </div>    
+                    </div>       
+                </div>  
+            </a>    
+        <% } %> 
+    </div>
+</body>
+
